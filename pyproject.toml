@@ -1,0 +1,15 @@
+[project]
+name = "a2af"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "a2a-sdk>=0.3.10",         # Updated: new features & bug fixes
+    "fasta2a>=0.6.0",          # Already current
+    "fastapi>=0.121.0",        # Updated: new scope support features
+    "pydantic-ai>=1.4.0",      # Corrected: 1.12.0 doesn't exist
+    "python-dotenv>=1.2.1",    # Updated: Python 3.14 support
+    "ruff>=0.14.4",            # Updated: latest linting rules
+    "uvicorn>=0.38.0",         # Updated: Python 3.14 support
+]
