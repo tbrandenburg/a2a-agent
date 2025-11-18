@@ -10,6 +10,7 @@ dependencies = [
     "fastapi>=0.121.0",        # Updated: new scope support features
     "pydantic-ai>=1.4.0",      # Corrected: 1.12.0 doesn't exist
     "python-dotenv>=1.2.1",    # Updated: Python 3.14 support
+    "python-telegram-bot>=21.10",
     "ruff>=0.14.4",            # Updated: latest linting rules
     "uvicorn>=0.38.0",         # Updated: Python 3.14 support
 ]
